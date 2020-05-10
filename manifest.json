@@ -1,0 +1,10 @@
+{
+    "name": "Leitura DNM",
+    "version": "1.0",
+    "description": "Permite contabilizar tempo de leitura no DNM sem precisar interagir com a página",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "js": ["jquery.min.js", "continuarLendo.js"],
+        "matches": ["*://*.desafionotamaxima.com.br/*"]
+      }]
+}
